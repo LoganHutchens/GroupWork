@@ -1,8 +1,18 @@
 
 import java.util.Scanner;
 
+/**
+ * Program to find the average in an array
+ *
+ * @author Logan Hutchens
+ */
 public class Program7 {
 
+    /**
+     * Main Method
+     *
+     * @param args arguments from command line prompt
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("How many numbers will be read? ");
@@ -13,6 +23,12 @@ public class Program7 {
         displayArray(myList);
     }
 
+    /**
+     * Method to fill array
+     *
+     * @param myList Array
+     * @param input Scanner
+     */
     //Filling the array
     public static void fillArray(double[] myList, Scanner input) {
         System.out.print("Enter " + myList.length + " values: ");
@@ -21,6 +37,12 @@ public class Program7 {
         }
     }
 
+    /**
+     * Method to find average
+     *
+     * @param myList Array
+     * @return The average of the array
+     */
     //Calculating the average
     public static double average(double[] myList) {
         double total = 0;
@@ -31,6 +53,11 @@ public class Program7 {
         return average;
     }
 
+    /**
+     * Method to print array
+     *
+     * @param myList Array
+     */
     //Displaying the array
     public static void displayArray(double[] myList) {
         System.out.println("The contents of the array are: ");
