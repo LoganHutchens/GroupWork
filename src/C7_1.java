@@ -4,9 +4,9 @@ import java.util.Scanner;
 /**
  * Program to calculate student grades.
  *
- * @author Ben Robinson
+ * @author Raymond Luong
  */
-public class a7_1 {
+public class C7_1 {
 
     /**
      * Main Method
